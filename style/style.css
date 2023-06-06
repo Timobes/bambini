@@ -1,3 +1,16 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1440px;
+    margin-left: 10%;
+    margin-right: 10%; */
+    z-index: 1;
+}
+
+
+/* header */
+
 .header {
     display: flex;
     align-content: center;
@@ -10,6 +23,7 @@
     width: 100%;
     height: 10vh;
     border: 3px solid green;
+    z-index: 2;
 }
 
 a {
@@ -64,64 +78,94 @@ a {
 
 }
 
-.wrapper {
+/* Основной контент */
 
+.wrapper {
+    width: 100%;
 }
+
+/* Блок с регистрацией на пробный день  */
 
 .sign_up {
     display: flex;
-    background-image: url('../img/home/photo_015.png');
+    /* background-image: url('../img/home/m_photo_015.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 900px;
-    background-color: aqua;
+    background-color: #A6DDF1;
+    justify-content: center;
 }
+
+.sign_up_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Цена */
+
 
 .price {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     
+    width: 80%;
+    margin-left: 10%;
 }
 
 .block__price {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    border: 5px solid green;
+    width: 30%;
+    /* border: 5px solid green; */
     border-radius: 25px;
+    background-color: #b5de4c;
 }
 
 .price__card__img {
     /* width: 470px;
     height: 290px; */
+    position: relative;
+    top: 25px;
 }
 
 .time {
     align-items: center;
 }
 
-.block__price__text {
+.time__sp {
+    background-color: #fff;
+}
 
+.block__price__text {
+    align-self: center;
+    font-size: 38px;
 }
 
 
-
+/* Наши премущества */
 
 .advantages {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+
+    width: 80%;
     height: 1000px;
-    border: 5px solid gray;
-    justify-content: space-around;
+    
+    /* border: 5px solid gray; */
+    justify-content: center;
+    margin-left: 10%;
 }
 
 .advantages__logo {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 10px;
 }
 
 .advantages__logo img {
@@ -133,9 +177,12 @@ a {
     display: flex;
     flex-direction: column;
     width: 30%;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
 }
 
 .block__ad img{
@@ -144,25 +191,49 @@ a {
 }
 
 
+/* Жизнь десткого сада (Галерея) */
 
 .kind_life {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 80%;
 
+    margin-left: 10%;
+
+    align-items: center;
 }
+.our_life__img {
+    width: 150px;
+    height: 150px;
+}
+
+.carousel {
+    /* width: 60%; */
+}
+
+
+/* Регистрация на пробный день */
 
 .sign_up_free_day {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 500px;
-    background-color: rgb(162, 240, 18);
+    background-color: #d4f088;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .free__day__form {
     display: flex;
     flex-direction: row;
 }
+
+
+/* Основные направления */
 
 .main_directions {
     display: flex;
@@ -186,10 +257,16 @@ a {
     display: flex;
     flex-direction: row;
     width: 60%;
+    margin-bottom: 20px;
 }
 
 .left__text {
     width: 50%;
+}
+
+.left__text p{
+    font-size: 30px;
+    line-height: 1.17;
 }
 
 .right__img {
@@ -198,22 +275,110 @@ a {
 
 
 
-
+/* доп напрвления */
 
 
 .additional_destinations {
-    width: 100%;
-    height: 1200px;
-    background-color: rgb(97, 106, 187);
+    width: 80%;
+    height: 800px;
+
+    background-color: #ffdea8;
+
+    margin-left: 10%;
 }
+
+.additional__block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.additional__img {
+    width: 4    0%;
+    height: 340px; 
+}
+
+.additional__text {
+    width: 50%;
+}
+
+.additional__head {
+
+}
+
+.additional__details {
+
+}
+
+
+/* Частые вопросы */
 
 .FAQ {
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #a6ddf1;
 }
+
+.accordion {
+    width: 60%;
+    /* background-color: #a6ddf1; */
+}
+
+
+/* Отзывы родителей */
+
 
 .parent_feedback {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+
+    margin-left: 10%;
 
 }
+
+.feedback__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__block img {
+    width: 200px;
+    height: 200px;
+}
+
+.parent__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parent__post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 320px;
+}
+
+.parent__post img {
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
+
+.parent__name {
+
+}
+
+.parent__text {
+    text-align: center;
+}
+
+/* Footer */
 
 .footer {
     display: flex;
@@ -222,7 +387,7 @@ a {
     width: 100%;
     height: 500px;
     justify-content: center;
-    background-color: rgb(47, 47, 185);
+    background-color: #d4f088;
 
     background-image: url('../img/home/greengrass.svg');
     background-repeat: no-repeat;
