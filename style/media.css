@@ -5,6 +5,10 @@
         width: 51%;
     }
 
+    .block__price {
+        width: 80%;
+    }
+
     .free__day__form {
         flex-direction: column;
     }
