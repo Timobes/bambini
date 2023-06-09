@@ -1,0 +1,45 @@
+/* Phone 480px  */
+
+@media (max-width: 480px) {
+    .block__ad {
+        width: 51%;
+    }
+
+    .free__day__form {
+        flex-direction: column;
+    }
+
+    .main__block {
+        flex-direction: column;
+    }
+
+    .right__img {
+        width: 100%;
+    }
+
+    .additional__block {
+        flex-direction: column;
+    }
+
+    .additional__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .parent__block {
+        flex-direction: column;
+    }
+
+    .parent__post {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+}

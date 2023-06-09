@@ -8,8 +8,28 @@ body {
     z-index: 1;
 }
 
+input {
+    color: rgb(71, 71, 71);
+    border: 2px solid rgb(151, 189, 55);
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    height: 60px;   
+}
+
+#subapp {
+    color: #688c14;
+    border: 2px solid #97bd37;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+
 
 /* header */
+
 
 .header {
     display: flex;
@@ -115,12 +135,13 @@ a {
     
     width: 80%;
     margin-left: 10%;
+    flex-wrap: wrap;
 }
 
 .block__price {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 45%;
     /* border: 5px solid green; */
     border-radius: 25px;
     background-color: #b5de4c;
@@ -129,7 +150,9 @@ a {
 .price__card__img {
     /* width: 470px;
     height: 290px; */
-    position: relative;
+
+    
+    /* position: relative; */
     top: 25px;
 }
 
@@ -154,7 +177,6 @@ a {
     flex-wrap: wrap;
 
     width: 80%;
-    height: 1000px;
     
     /* border: 5px solid gray; */
     justify-content: center;
@@ -165,7 +187,6 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 10px;
 }
 
 .advantages__logo img {
@@ -186,8 +207,8 @@ a {
 }
 
 .block__ad img{
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
 }
 
 
@@ -280,7 +301,6 @@ a {
 
 .additional_destinations {
     width: 80%;
-    height: 800px;
 
     background-color: #ffdea8;
 
@@ -294,7 +314,7 @@ a {
 }
 
 .additional__img {
-    width: 4    0%;
+    width: 40%;
     height: 340px; 
 }
 
