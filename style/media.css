@@ -1,12 +1,17 @@
 /* Phone 480px  */
 
 @media (max-width: 480px) {
+    .sign_up {
+        height: 400px;
+    }
+    
     .block__ad {
         width: 51%;
     }
 
     .block__price {
-        width: 80%;
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .free__day__form {
@@ -45,5 +50,30 @@
 
     .nav {
         flex-direction: column;
+    }
+
+    .left__text {
+        width: 100%;
+    }
+
+    .main__block {
+        width: 100%;
+    }
+
+    .additional__text {
+        width: 100%;
+    }
+
+    .block__price__text {
+        font-size: 26px;
+    }
+
+    .additional_destinations {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .additional__head {
+        text-align: center;
     }
 }
