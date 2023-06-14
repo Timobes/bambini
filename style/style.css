@@ -19,6 +19,15 @@ input {
 
 }
 
+.hr__on__page {
+    width: 100%;
+    height: 10vh;
+
+    background-color: #fff;
+    color: #fff;
+}
+
+
 #subapp {
     color: #688c14;
     border: 2px solid #97bd37;
@@ -39,12 +48,12 @@ input {
     justify-content: space-evenly;
 
     flex-direction: row;
-    background-color: #fff;
+    background-color: #F8F9FA;
     position: sticky;
     top: 0;
     width: 100%;
     height: auto;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     z-index: 5;
 }
 
@@ -147,6 +156,9 @@ a {
     /* border: 5px solid green; */
     border-radius: 25px;
     background-color: #b5de4c;
+
+    height: auto;
+    padding-top: 30px;
 }
 
 .price__card__img {
@@ -188,12 +200,15 @@ a {
     /* border: 5px solid gray; */
     justify-content: center;
     margin-left: 10%;
+    /* margin-bottom: 25px; */
 }
 
 .advantages__logo {
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    margin-top: 30px;
 }
 
 .advantages__logo img {
@@ -231,6 +246,7 @@ a {
     background-color: #688c14;
 
     margin-left: 10%;
+    /* margin-bottom: 30px; */
 
     align-items: center;
 }
@@ -296,7 +312,7 @@ a {
     display: flex;
     flex-direction: row;
     width: 60%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .left__text {
@@ -441,16 +457,20 @@ a {
 
 .footer {
     display: flex;
+    flex-direction: column;
+    
     position: relative;
     bottom: 0px;
     width: 100%;
-    height: 500px;
+    height: auto;
     justify-content: center;
     background-color: #d4f088;
 
-    background-image: url('../img/home/greengrass.svg');
+    /* background-image: url('../img/home/greengrass.svg'); */
     background-repeat: no-repeat;
     background-size: cover;
+
+    align-items: center;
 }
 
 .our_contacts {
@@ -458,7 +478,9 @@ a {
 }
 
 .address_map {
-
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .general_number {
@@ -470,9 +492,31 @@ a {
 }
 
 .nav {
-
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .nav__li {
     color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav__li a {
+    text-decoration: none;
+    
+}
+
+.foot__logo {
+    display: flex;
+
+    width: 200px;
+    height: 150px;
+}
+
+.years {
+    display: flex;
+    color: #000;
 }
