@@ -1,5 +1,4 @@
 /* Phone 480px  */
-
 @media (max-width: 480px) {
     .sign_up {
         height: 400px;
@@ -20,6 +19,7 @@
 
     .main__block {
         flex-direction: column;
+        width: 100%;
     }
 
     .right__img {
@@ -28,6 +28,7 @@
 
     .additional__block {
         flex-direction: column;
+        height: 800px;
     }
 
     .additional__img {
@@ -56,10 +57,6 @@
         width: 100%;
     }
 
-    .main__block {
-        width: 100%;
-    }
-
     .additional__text {
         width: 100%;
     }
@@ -75,5 +72,37 @@
 
     .additional__head {
         text-align: center;
+    }
+
+    .kind_life {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .price__block {
+        flex-direction: column;
+    }
+
+    .block__people {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .people__card img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+/* Ноутбук */
+@media (max-width: 1280px) {
+    .main__block {
+        width: 100%;
+    }
+
+    .additional_destinations {
+        width: 100%;
+        margin-left: 0;
     }
 }
