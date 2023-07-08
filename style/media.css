@@ -17,6 +17,15 @@
         flex-direction: column;
     }
 
+    .free__day__form input {
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    .sign_up_free_day_childtext {
+        display: none;
+    }
+
     .main__block {
         flex-direction: column;
         width: 100%;
@@ -28,12 +37,14 @@
 
     .additional__block {
         flex-direction: column;
-        height: 800px;
+        height: auto;
+        padding: 20px;
     }
 
     .additional__img {
         width: 100%;
         height: auto;
+        margin-left: 0;
     }
 
     .accordion {
@@ -50,7 +61,7 @@
     }
 
     .nav {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .left__text {
@@ -79,18 +90,40 @@
         margin-left: 0;
     }
 
+    .kind__life__name {
+        font-size: 27px;
+    }
+
     .price__block {
         flex-direction: column;
     }
 
     .block__people {
         width: 100%;
+        margin-left: 0;
+    }
+
+    .people__card {
+        margin-right: 0;
         margin-left: 20px;
     }
 
     .people__card img {
         width: 250px;
         height: 250px;
+    }
+
+    .general_number {
+        font-size: 16px;
+    }
+
+    .general__adderss__number {
+        font-size: 17px;
+    }
+
+    .navbar-brand {
+        width: 180px;
+        height: 110px;
     }
 }
 

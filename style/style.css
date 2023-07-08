@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
+
 body {
     /* display: flex;
     justify-content: center;
@@ -14,10 +16,13 @@ input {
     background-color: transparent;
     border-radius: 30px;
     font-size: 17px;
+    font-family: var(--font-fam);
     font-weight: 400;
     height: 60px;   
-
 }
+
+/* :root {
+    --font-fam: 'Ubuntu', sans-serif; */
 
 /* .tales {
     width: 100%;
@@ -90,6 +95,11 @@ a {
     /* height: 125px; */
 }
 
+.navbar-brand {
+    width: 200px; 
+    height: 110px;
+}
+
 .logo__info {
 
 }
@@ -110,6 +120,7 @@ a {
     font-size: 18px;
     line-height: 1.55;
     font-weight: 500;
+    font-family: var(--font-fam);
 }
 
 .address {
@@ -174,7 +185,6 @@ a {
     display: flex;
     flex-direction: column;
     width: 45%;
-    /* border: 5px solid green; */
     border-radius: 25px;
     background-color: #b5de4c;
 
@@ -183,12 +193,9 @@ a {
 }
 
 .price__card__img {
-    /* width: 49px;
-    height: 290px; */
     width: auto;
+    /* height: 400px; */
     height: auto;
-    
-    /* position: relative; */
     top: 25px;
 }
 
@@ -199,10 +206,12 @@ a {
     font-size: 26px;
     line-height: 30px;
     font-weight: 700;
+    font-family: var(--font-fam);
 }
 
 .time__sp {
     background-color: #fff;
+    /* height: 250px; */
 }
 
 .time__sp ul {
@@ -212,6 +221,7 @@ a {
 .block__price__text {
     align-self: center;
     font-size: 38px;
+    font-family: var(--font-fam);
 }
 
 
@@ -246,6 +256,7 @@ a {
     font-size: 35px;
     line-height: 46px;
     font-weight: 500;
+    font-family: var(--font-fam);
 
     text-align: center;
 }
@@ -258,6 +269,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    font-family: var(--font-fam);
     line-height: 22px;
     text-align: center;
 }
@@ -287,11 +299,12 @@ a {
 .kind__life__name {
     font-size: 35px;
     font-weight: 600;
+    font-family: var(--font-fam);
 }
 
 .our_life__img {
     width: 150px;
-    height: 150px;
+    height: 80px;
 }
 
 .carousel {
@@ -305,16 +318,18 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: #d4f088;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 10px;
 }
 
 .sign_up_free_day p { 
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .free__day__form {
@@ -324,6 +339,10 @@ a {
 
 .free__day__form input {
     margin-right: 10px;
+}
+
+.sign_up_free_day_childtext {
+    font-weight: normal;
 }
 
 
@@ -339,6 +358,9 @@ a {
 .main_directions__name {
     font-size: 36px;
     font-weight: 500;
+    font-family: var(--font-fam);
+    text-align: center;
+
 }
 
 .main_directions__img {
@@ -366,6 +388,7 @@ a {
 
 .left__text p{
     font-size: 30px;
+    font-family: var(--font-fam);
     line-height: 1.17;
     text-align: center;
 }
@@ -390,6 +413,7 @@ a {
 
 .additional_destinations__name {
     font-size: 36px;
+    font-family: var(--font-fam);
     font-weight: 500;
     text-align: center;
 }
@@ -402,7 +426,8 @@ a {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 620px;
+    height: auto;
+    padding: 20px;
 }
 
 .additional__img {
@@ -420,6 +445,8 @@ a {
 
 .additional__head {
     margin-top: 30px;
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .additional__head > li {
@@ -444,6 +471,7 @@ a {
     font-size: 28px;
     line-height: 33px;
     font-weight: 700;
+    font-family: var(--font-fam);
     text-align: center;
 }
 
@@ -482,6 +510,7 @@ a {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    font-family: var(--font-fam);
 }
 
 .parent__block {
@@ -513,6 +542,7 @@ a {
     text-align: center;
     color: #6e6e6e;
     font-size: 16px;
+    font-family: var(--font-fam);
     line-height: 1.2;
 }
 
@@ -552,13 +582,13 @@ a {
     justify-content: center;
 
 
-    /* font-family : "TildaSans", Arial, sans-serif; */
-    font-size : 29px;
-    font-weight : 700;
-    line-height : 45px;
-    text-decoration : rgb(56, 56, 56);
-    text-align : center;
-    word-spacing : 0px;
+    font-family: var(--font-fam);
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 45px;
+    text-decoration: rgb(56, 56, 56);
+    text-align: center;
+    word-spacing: 0px;
 }
 
 .general__adderss__number {
@@ -569,6 +599,7 @@ a {
     font-weight: 700;
     line-height: 31px;
     font-size: 20px;
+    font-family: var(--font-fam);
 }   
 
 .nav {
@@ -582,6 +613,7 @@ a {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
+    font-family: var(--font-fam);
 }
 
 .nav__li a {
@@ -618,6 +650,7 @@ a {
 
     font-size : 31px;
     font-weight : 500;
+    font-family: var(--font-fam);
     line-height : 48px;
     text-decoration : rgb(3, 3, 3);
     text-align : center;
@@ -651,6 +684,7 @@ a {
 
 .people__name {
     font-size: 20px;
+    font-family: var(--font-fam);
     line-height: 31px;
 
 
