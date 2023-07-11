@@ -6,6 +6,7 @@
     
     .block__ad {
         width: 51%;
+        margin-bottom: 30px;
     }
 
     .block__price {
